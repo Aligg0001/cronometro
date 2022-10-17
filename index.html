@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Cronômetro alarme js</title>
+    <style>
+        container{ 
+            text-align: center;
+        }
+
+        button{ 
+
+          background: cornflowerblue;
+          color: rgb(255, 255, 255);
+          font-size: 25px;
+          padding: 8px 20px;
+          cursor: pointer;
+          border: 0;
+          outline: 0;
+            
+        }
+    </style>
+</head>
+<body>
+    <audio src="audio.mp3" id="sound" style="display: none;"></audio>
+    <h1> Esse é um cronômetro!</h1>
+
+    <div class="container">
+<h2> Minutos</h2>
+<select id="minutos" nome="minutos"></select>
+
+<h2>Segundos</h2>
+<select id="segundos" name="segundos"></select>
+
+<br>
+<br>
+<button id="iniciar">Iniciar</button>
+
+ <div id="display">
+    <h3></h3>
+ </div>
+    </div>
+
+
+    <script src="index.js"></script> 
+</body>
+</html>
